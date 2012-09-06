@@ -3,6 +3,38 @@ body {
     font-family: 'lucida grande',tahoma,verdana,arial,sans-serif;
 }
 
+.topbox {
+background-color: white;
+border: 1px solid #C4CDE0;
+-webkit-border-radius: 0 0 2px 2px;
+border-top: 0;
+height: 47px;
+width: 1096px;
+margin-left: 10px;
+}
+
+.likebox {
+    width: 100px;
+    margin: 5px;
+    float: left;
+}
+
+.liketxt {
+    font-size: 11px;
+    color: #3B5998;
+    text-align: center;
+}
+
+.like {
+    background-image: url('like.png');
+    width: 100px;
+    height: 100px;
+    position: absolute:
+    left: 0px;
+    top: 0px;
+}
+
+
 .face {
     background-image: url('face.png');
     width: 100px;
@@ -17,6 +49,7 @@ body {
     width: 235px;
     float: left;
     margin: 10px;
+    cursor: pointer;
 }
 
 .info {
@@ -51,4 +84,13 @@ body {
     width: 100%;
 }
 
+.littlepic {
+    background-image: url("face.png");
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+    height: 100%;
+    padding: 10px 5px 5px 50px;
+    background-position: 5px 5px;
+    font-weight: bold;
+}
 
