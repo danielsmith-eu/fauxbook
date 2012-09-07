@@ -1,0 +1,126 @@
+body {
+    background-color: #F1F1F1;
+    font: normal 13px arial,sans-serif;
+}
+
+.topbox {
+background-color: white;
+border: 1px solid #DDD;
+-webkit-border-radius: 0 0 2px 2px;
+height: 47px;
+width: auto;
+margin-left: 95px;
+}
+
+.likebox {
+    width: 100px;
+    margin: 5px;
+    float: left;
+}
+
+.liketxt {
+    font-size: 13px;
+    color: #3B5998;
+    text-align: center;
+}
+
+.like {
+    background-image: url('like.png');
+    width: 71px;
+    height: 74px;
+    position: absolute:
+    left: 0px;
+    top: 0px;
+}
+
+
+.face {
+    background-image: url('face.png');
+    width: 48px;
+    height: 48px;
+    position: absolute:
+    left: 0px;
+    top: 0px;
+}
+
+.person {
+    position: relative;
+    float: left;
+    margin: 10px;
+    cursor: pointer;
+
+    width: 128px;
+    height: 48px;
+
+    border-radius: 6px;
+    background-color: #F4F4F4;
+    background-image: -webkit-linear-gradient(top,white,#F4F4F4);
+    background-image: -moz-linear-gradient(top,white,#F4F4F4);
+    background-image: -ms-linear-gradient(top,white,#F4F4F4);
+    background-image: -o-linear-gradient(top,white,#F4F4F4);
+    background-image: linear-gradient(top,white,#F4F4F4);
+    border-width: 0 0 0 4px;
+    box-shadow: inset 1px 1px 0 rgba(0, 0, 0, .1),inset 0 -1px 0 rgba(0, 0, 0, .07);
+    border: 1px solid #DDD;
+}
+
+.info {
+    position: absolute;
+    left: 50px;
+    top: 8px;
+    color: black;
+    font-size: 13px;
+    line-height: normal;
+
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+.main-container {
+    width: 100%;
+    margin: 0px;
+    height: 100%;
+}
+
+.main {
+    background: white;
+    border-top: 1px solid #D7D7D7;
+    border-left: 1px solid #D7D7D7;
+    -webkit-border-radius: 3px 0px 0px 0px;
+    padding: 20px 35px 10px;
+    margin: 10px 0px 0px 97px;
+    height: 100%;
+    width: auto;
+}
+
+
+.body {
+}
+
+.header-container {
+    background-color: #F1F1F1;
+    margin-top: 0px;
+    height: 72px;
+    border: 0px;
+    background-image: url('gplus.png');
+    background-repeat: no-repeat;
+    background-position: 20px 20px;
+    width: 100%;
+}
+
+.littlepic {
+    background-image: url("face.png");
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+    height: 100%;
+    padding: 10px 5px 5px 50px;
+    background-position: 5px 5px;
+    font-weight: bold;
+}
+

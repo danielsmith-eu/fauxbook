@@ -20,11 +20,17 @@ $(document).ready(function(){
             var name = person["Name/Label"][0]; // must be present
             $(".littlepic").html(name);
 
-            $.each(person['likes'], function(){
-                var like = this;
-                var div = _(like_template).template({"like": like});
-                div = $(div);
-                $("#likes").append(div);
+            var preds = ['likes', 'likes_food'];
+            $.each(preds, function(){
+                var pred = this;
+                if (pred in person){
+                    $.each(person[pred], function(){
+                        var like = this;
+                        var div = _(like_template).template({"like": like});
+                        div = $(div);
+                        $("#likes").append(div);
+                    });
+                }
             });
 
 

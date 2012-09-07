@@ -29,7 +29,7 @@ $(document).ready(function(){
         $("#friends").append(div);
 
         div.click(function(){
-            var link = "friend.html?friend="+encodeURIComponent(uri);
+            var link = window.friendurl+"?friend="+encodeURIComponent(uri);
             window.location = link;
         });
     });
