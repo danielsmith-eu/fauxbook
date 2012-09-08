@@ -20,6 +20,18 @@ $(document).ready(function(){
             var name = person["Name/Label"][0]; // must be present
             $(".littlepic").html(name);
 
+            if ("address" in person){
+                $("#address").html(person['address'][0]);
+            } else {
+                $("#address_container").hide();
+            }
+            if ("Latitude" in person){
+                $("#latitude").html(person['Latitude'][0]);
+            }
+            if ("Longitude" in person){
+                $("#longitude").html(person['Longitude'][0]);
+            }
+
             var preds = ['likes', 'likes_food'];
             $.each(preds, function(){
                 var pred = this;
